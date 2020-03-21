@@ -1,0 +1,4 @@
+Make use of the idea of Simultaneous localization and Mapping for constructing or updating a map of an unknown environment(assuming bot has deviated from its path). 
+One can make use of components like wheel encoders to approximate current position relative to the starting position.
+Then find the deviation from the pre-planned path. 
+Taking into account the obstacles and the pre-planned path, employ any path finding algorithm to find optimum path back to the preplanned path.
