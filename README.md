@@ -49,5 +49,6 @@ Ongoing :
     Coursera - Machine learning, Andrew Ng
     
     
-Other Profiles : 
+Other Profiles
+--------------
     Hackerrank : https://www.hackerrank.com/SOLO_7
