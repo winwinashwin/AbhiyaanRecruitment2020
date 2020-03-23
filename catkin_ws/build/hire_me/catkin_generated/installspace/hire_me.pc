@@ -1,0 +1,8 @@
+prefix=/home/ashwin_a_nayar/github_abhi/catkin_ws/install
+
+Name: hire_me
+Description: Description of hire_me
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
