@@ -1,13 +1,5 @@
 #!/usr/bin/env python
-#!/usr/bin/env python
 
-"""
-I have made use of the following resources to learn about this topic
-
-video : https://www.youtube.com/watch?v=Qh15Nol5htM
-article : https://en.wikipedia.org/wiki/Proportional_control
-
-"""
 
 # import necesary modules
 import rospy
@@ -47,7 +39,7 @@ class TurtleBot:
         self.pose.x = round(self.pose.x, 4)
         self.pose.y = round(self.pose.y, 4)
 
-    # function to find distance between self and target
+    # compute euclidean distance between self and target
     def euclidean_distance(self, goal_pose):
         return sqrt(pow((goal_pose.x - self.pose.x), 2) +
                     pow((goal_pose.y - self.pose.y), 2))
@@ -61,7 +53,7 @@ class TurtleBot:
     def angular_vel(self, goal_pose, constant=6):
         return constant * (self.steering_angle(goal_pose) - self.pose.theta)
 
-    # functio to move towards target
+    # function to move towards target
     def move2goal(self, data):
         self.target_subscriber.unregister()
         goal_pose = Pose()

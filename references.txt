@@ -1,0 +1,17 @@
+============
+REFERENCES
+============
+
+
+Turtle Exercise script
+----------------------
+
+video : https://www.youtube.com/watch?v=Qh15Nol5htM
+article : https://en.wikipedia.org/wiki/Proportional_control
+
+
+Lane detection script
+----------------------
+
+article : https://medium.com/computer-car/udacity-self-driving-car-nanodegree-project-1-finding-lane-lines-9cd6a846c58c
+
