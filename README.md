@@ -13,7 +13,6 @@ Previous Experience:
 -------------------
 Part of Cauvery TechSoc team.
 Have completed a bunch of projects(self driven) in areas of web scraping, task automation, computer vision, socket programming, CUDA GPU Programming, and GUI builds.
-Currently working on a python based, fully automated, Trading bot
 
 
 Current PORs:
